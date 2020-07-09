@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/MemoryContent"
+        android:layout_width="600px"
+        android:layout_height="550px"/>
+    <ImageView android:id="@+id/ImageSelected"
+        android:layout_width="600px"
+        android:layout_height="400px"
+        android:src="@drawable/image_preview"
+        android:scaleType="fitXY"/>
+</LinearLayout>

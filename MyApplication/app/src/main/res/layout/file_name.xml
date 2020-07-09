@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150px"
+    android:orientation="horizontal">
+    <ImageView android:id="@+id/FileIcon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="3"
+        android:scaleType="fitXY"/>
+    <TextView android:id="@+id/FileName"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:fontFamily="sans-serif-black"
+        android:textSize="18dp"
+        android:paddingLeft="10dp"/>
+</LinearLayout>
